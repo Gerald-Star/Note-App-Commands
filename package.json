@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_v3",
+  "version": "1.0.0",
+  "description": "Node JS ia a Javascript runtime environment. It runs on the operating system environment while the Javascript runs on the browser environment.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "note": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
