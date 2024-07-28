@@ -2,7 +2,7 @@ import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
 
 yargs(hideBin(process.argv))
-  //? make a command yargs to create a cli
+  //? make a command yargs to create a new note
   .command('new <note>', 'create a new note', yargs => {
     return yargs.positional('note', {
       describe: 'The content of the note you want to create',
